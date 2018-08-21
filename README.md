@@ -8,12 +8,12 @@ ffmpeg在android系统的编译导入以及开发
 
 ## 编译ffmpeg库 
 
-把下载库解压后拷贝到ubuntu系统中，我放在桌面上
+把下载库解压后拷贝到ubuntu系统中，我放在桌面上，另外可以在桌面上建一个文件夹，用来存放编译后生成的库，文件夹取名叫ffmpeg
 
 ```
  $ sudo apt-get install yasm    
 
- $ ./configure --enable-shared --prefix=/home/work/soft/ffmpeg/
+ $ ./configure --enable-shared --prefix=/home/Desktop/ffmpeg/
 
  $ make   #漫长的等待
 
