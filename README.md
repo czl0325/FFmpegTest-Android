@@ -43,3 +43,8 @@ SLIB_INSTALL_LINKS='$(SLIBNAME)'
 ```
 
 这样打包就没有问题了
+
+
+## 创建工程
+
+打开Android studio ,新建一个ndk工程。
