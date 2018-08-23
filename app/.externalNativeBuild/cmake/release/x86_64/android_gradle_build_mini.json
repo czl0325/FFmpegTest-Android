@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/zhaoliangchen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/zhaoliangchen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
+      "abi": "x86_64",
+      "output": "/Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
+    },
+    "avcodec-58-Release-x86_64": {
+      "artifactName": "avcodec-58",
+      "abi": "x86_64",
+      "output": "../../../../libs/x86_64/libavcodec-58.so"
+    }
+  }
+}
