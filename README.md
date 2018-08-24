@@ -13,7 +13,9 @@ ffmpeg在android系统的编译导入以及开发
 ```
  $ sudo apt-get install yasm    
 
- $ ./configure --enable-shared --prefix=/home/Desktop/ffmpeg/
+ $ ./configure --enable-shared --disable-static --disable-ffmpeg --disable-ffplay --disable-ffprobe --disable-doc --prefix=/usr/myffmpeg/
+ 
+ # 修改一下关于configure的配置，有些库不需要编译，只编译动态库，不编译静态库
 
  $ make   #漫长的等待
 
@@ -27,17 +29,17 @@ ffmpeg在android系统的编译导入以及开发
 找到这四行，注释掉
 
 ```
-#SLIBNAME_WITH_MAJOR='$(SLIBNAME).$(LIBMAJOR)'
-#LIB_INSTALL_EXTRA_CMD='$$(RANLIB) "$(LIBDIR)/$(LIBNAME)"'
-#SLIB_INSTALL_NAME='$(SLIBNAME_WITH_VERSION)'
-#SLIB_INSTALL_LINKS='$(SLIBNAME_WITH_MAJOR) $(SLIBNAME)'
+SLIBNAME_WITH_MAJOR='$(SLIBNAME).$(LIBMAJOR)'
+LIB_INSTALL_EXTRA_CMD='$$(RANLIB) "$(LIBDIR)/$(LIBNAME)"'
+SLIB_INSTALL_NAME='$(SLIBNAME_WITH_VERSION)'
+SLIB_INSTALL_LINKS='$(SLIBNAME_WITH_MAJOR) $(SLIBNAME)'
 ```
 
 改成
 
 ```
 SLIBNAME_WITH_MAJOR='$(SLIBPREF)$(FULLNAME)-$(LIBMAJOR)$(SLIBSUF)'
-LIB_INSTALL_EXTRA_CMD='$$(RANLIB)"$(LIBDIR)/$(LIBNAME)"'
+LIB_INSTALL_EXTRA_CMD='$$(RANLIB) "$(LIBDIR)/$(LIBNAME)"'
 SLIB_INSTALL_NAME='$(SLIBNAME_WITH_MAJOR)'
 SLIB_INSTALL_LINKS='$(SLIBNAME)'
 ```
