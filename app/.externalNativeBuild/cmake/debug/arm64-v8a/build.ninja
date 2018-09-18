@@ -67,10 +67,10 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
 #############################################
 # Link the shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so
 
-build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | ../../../../libs/arm64-v8a/libavcodec-58.so /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/liblog.so
+build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | ../../../../libs/arm64-v8a/libavcodec-56.so /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/liblog.so
   LANGUAGE_COMPILE_FLAGS = -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
-  LINK_LIBRARIES = ../../../../libs/arm64-v8a/libavcodec-58.so -llog -latomic -lm "/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a" "/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a"
+  LINK_LIBRARIES = ../../../../libs/arm64-v8a/libavcodec-56.so -llog -latomic -lm "/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a" "/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a"
   OBJECT_DIR = CMakeFiles/native-lib.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -6,16 +6,16 @@
     "/Users/zhaoliangchen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
   ],
   "libraries": {
+    "avcodec-56-Debug-arm64-v8a": {
+      "artifactName": "avcodec-56",
+      "abi": "arm64-v8a",
+      "output": "../../../../libs/arm64-v8a/libavcodec-56.so"
+    },
     "native-lib-Debug-arm64-v8a": {
       "artifactName": "native-lib",
       "buildCommand": "/Users/zhaoliangchen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
       "abi": "arm64-v8a",
       "output": "/Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
-    },
-    "avcodec-58-Debug-arm64-v8a": {
-      "artifactName": "avcodec-58",
-      "abi": "arm64-v8a",
-      "output": "../../../../libs/arm64-v8a/libavcodec-58.so"
     }
   }
 }

@@ -8,12 +8,12 @@
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
-		"avcodec-58-Debug-arm64-v8a" : 
+		"avcodec-56-Debug-arm64-v8a" : 
 		{
 			"abi" : "arm64-v8a",
-			"artifactName" : "avcodec-58",
+			"artifactName" : "avcodec-56",
 			"buildType" : "debug",
-			"output" : "../../../../libs/arm64-v8a/libavcodec-58.so",
+			"output" : "../../../../libs/arm64-v8a/libavcodec-56.so",
 			"toolchain" : "4307591035959482794"
 		},
 		"native-lib-Debug-arm64-v8a" : 

@@ -196,7 +196,7 @@ Project_SOURCE_DIR:STATIC=/Users/zhaoliangchen/Desktop/FFmpegTest-Android/app
 log-lib:FILEPATH=/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/liblog.so
 
 //Dependencies for the target
-native-lib_LIB_DEPENDS:STATIC=general;avcodec-58;general;/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/liblog.so;
+native-lib_LIB_DEPENDS:STATIC=general;avcodec-56;general;/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/liblog.so;
 
 
 ########################

@@ -8,12 +8,12 @@
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
-		"avcodec-58-Release-armeabi-v7a" : 
+		"avcodec-56-Release-armeabi-v7a" : 
 		{
 			"abi" : "armeabi-v7a",
-			"artifactName" : "avcodec-58",
+			"artifactName" : "avcodec-56",
 			"buildType" : "release",
-			"output" : "../../../../libs/armeabi-v7a/libavcodec-58.so",
+			"output" : "/Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/src/main/jniLibs/armeabi-v7a/libavcodec-56.so",
 			"toolchain" : "4307591035959482794"
 		},
 		"native-lib-Release-armeabi-v7a" : 
@@ -26,7 +26,7 @@
 			[
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/zhaoliangchen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
 					"src" : "/Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "/Users/zhaoliangchen/Desktop/FFmpegTest-Android/app/.externalNativeBuild/cmake/release/armeabi-v7a"
 				}
